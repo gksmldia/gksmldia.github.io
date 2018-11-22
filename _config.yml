@@ -26,7 +26,8 @@ version: 1.0.0
 author:
   name: Codinfox
   description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
-  gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
+  gravatar: ea4bac38492091d36d84dd0dc24ad44f # md5 hash of your email address
+  #photo: AF1QipNWWPFn5SQBpNGc8wSZ254dOPr7Kphd82Gvhp6A
   contact:
     linkedin:  https://www.linkedin.com/in/dodol-123456
     github:    https://github.com/gksmldia
