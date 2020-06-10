@@ -6,25 +6,31 @@ locale: ko_KR
 
 # Blog Settings
 theme_settings :
-  title : Grape Theme
+  title : Midsummer Night's Honey
   favicon : assets/favicon.ico
 
   # Profile Settings
   profile :
     image : assets/img/smile.png
     username : Hanui Shin
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    description : 성장하는 것은 살아있다는 것의 증거
     experience :
       - start : 2017-05-03
         end : 2018-05-06
         experience : company name, title
     skills : 
-      - skill : HTML5 & CSS
-        value : 85  # Percent value
+      - skill : JAVA
+        value : 75  # Percent value
+      - skill : Python
+        value : 75  # Percent value
+      - skill : JS
+        value : 90  # Percent value
+      - skill : Elastic
+        value : 30  # Percent value
         
   # Icons
   icons :
-    email:  # Full email address, e.g. "sample@google.com"
+    email:  gksmldia@google.com
     linkedin:  # Full URL 
     github: gksmldia
     gitlab: 
