@@ -1,65 +1,51 @@
-# Site Info
-title: Gaebal Gom
-tagline: '괴발개발'
-description: 'aaa'
-#baseurl: "/"
-url: http://gksmldia.github.io
+# Site Settings
+baseurl: ""
+url : "http://gksmldia.github.io"
 logo: '/public/logo1.png'
 locale: ko_KR
 
-# Site configurations
-gems:
-  - jekyll-paginate
-markdown: kramdown
-kramdown:
-  input: GFM
-excerpt_separator: "<!-- more -->"
-sass:
-  style: compressed
-  sass_dir: _scss    
+# Blog Settings
+theme_settings :
+  title : Grape Theme
+  favicon : assets/favicon.ico
+
+  # Profile Settings
+  profile :
+    image : assets/img/smile.png
+    username : Hanui Shin
+    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    experience :
+      - start : 2017-05-03
+        end : 2018-05-06
+        experience : company name, title
+    skills : 
+      - skill : HTML5 & CSS
+        value : 85  # Percent value
+        
+  # Icons
+  icons :
+    email:  # Full email address, e.g. "sample@google.com"
+    linkedin:  # Full URL 
+    github: gksmldia
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    twitter:
+    youtube:
+    facebook:
+    instagram:
+
+  # Disqus
+  disqus_shortname :
+
+# Pagination
 paginate: 5
-paginate_path: '/blog/page:num'
-permalink: pretty
+paginate_path: "blog/page:num"
 
-version: 1.0.0
-
-# About/contact
-author:
-  name: Gaebal_Gom
-  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
-  gravatar: ea4bac38492091d36d84dd0dc24ad44f # md5 hash of your email address
-  #photo: AF1QipNWWPFn5SQBpNGc8wSZ254dOPr7Kphd82Gvhp6A
-  contact:
-    linkedin:  https://www.linkedin.com/in/dodol-123456
-    github:    https://github.com/gksmldia
-    facebook:   https://www.facebook.com/hanui.sin
-    #twitter:   https://twitter.com/Li_Zhihao
-    #weibo:     http://weibo.com/41173780
-    #email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
-
-# Navigation (2nd level links supported)
-nav:
-  Home:           
-    - '/'
-  Blog:           
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
-  About:          
-    - '/about/'
-  Github Project: 
-    - 'http://gksmldia.github.io/'
-
-# Where are tags and categories displayed
-tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
-
-hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
-
-# Puglins
-mathjax: true # whether support mathjax
-google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
-
+# Build Ssttings
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [jekyll-paginate]
+bootstrap:
+  assets: true
