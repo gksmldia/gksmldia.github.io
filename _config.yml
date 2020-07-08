@@ -13,7 +13,7 @@ theme_settings :
   profile :
     image : assets/img/smile.png
     username : Hanui Shin
-    description : 성장하는 것은 살아있다는 것의 증거
+    description : Evidence of being alive is growing
     experience :
       - start : 2017-05-03
         end : 2018-05-06
@@ -35,11 +35,11 @@ theme_settings :
     github: gksmldia
     gitlab: 
     bitbucket: 
-    google_plus:
+    google_plus: 
     twitter:
     youtube:
     facebook:
-    instagram:
+    instagram: doree_gom
 
   # Disqus
   disqus_shortname :
